@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/opensans/opensans/OpenSans-Regular.ttf);
+}
+
+h1 {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+}
+p {
+    margin: 0 auto;
+    color: #000;
+}
+.solucionesG__titulo{
+    margin: 0 auto;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+header {
+    position: sticky;
+    bottom: 0px;
+}
+main {
+    min-height: 100vh;
+}
+.menu {
+    background-image: url(../images/Header-fondo.png);
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    position: sticky;
+    top: 0px;
+}
+.menu__icono {
+    display: none;
+    padding: 5%;
+}
+
+h2{
+    text-align: center;
+    color: #050505;
+    font-size: 300%;
+    background-color: rgba(240, 248, 255, 0.7);
+}
+li {
+    display: inline-block
+}
+.enlacePaginas{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+.enlaceTextShadow {
+    text-shadow: 0px 0px 15px #fff;
+}
+ul li:hover {
+    text-shadow: 0px 0px 15px #fff;
+}
+.parallaxLoquehacemos {
+    background-image: url('https://image.freepik.com/foto-gratis/ideas-vision-mision-creativa-solucion-cocnept_53876-123786.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxNuestras {
+    background-image: url('https://images.pexels.com/photos/2857477/pexels-photo-2857477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxEquipo {
+    background-image: url('https://image.freepik.com/foto-gratis/colegas-dando-golpe-puno_53876-64857.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxContacto {
+    background-image: url('https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: "OpenSans";
+    font-size: 16px;
+}
+.fondoHome {
+    display: flex;
+    background-color: #050505;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.animation {
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        width: 1000px;
+    }
+    100% {
+        width: 800px;
+    }
+}
+.fondoHome__cel {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #050505;
+    height: 100vh;
+}
+.titulo {
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+input {
+    width: 50%;
+    margin: 20px;
+}
+.checkBox {
+    width: 5%;
+    margin: 5px;
+}
+.button {
+    margin: 2%;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #f9fbfc;
+    max-width: 410px;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px 0 15px 25px;
+    display: grid;
+    box-shadow: 1px 1px 1px #2b2b2b;
+    transition: width 2s;
+}
+.card:hover {
+    background-color: #fcfae3;
+}
+.cardLoqhacemos {
+    width: 310px;
+}
+.cardCreaciones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-rows: 500px;
+}
+.cardCreacion {
+    display: grid;
+    place-self: center;
+    width: 310px;
+}
+.cardCreacion__img {
+    width: 250px;
+    place-self: center;
+    transition: all 1s;
+}
+.cardCreacion__img:hover {
+    width: 280px;
+}
+.cardDescription {
+    place-self: center;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card__title {
+    font-size: 25px;
+    text-align: center;
+}
+.card__img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.card__img:hover {
+    width: 280px;
+}
+.card__text {
+    width: 90%;
+    padding: 10px;
+}
+.cards__contactos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+.card__contacto {
+    display: flex;
+    margin: 0 auto;
+    padding: 5% 0 5% 0;
+}
+.card__contacto--medios {
+    background-color: #f9fbfc;
+    width: 50%;
+    max-width: 320px;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px 0 15px 25px;
+    display: grid;
+    box-shadow: 1px 1px 1px #2b2b2b;
+}
+.card__contacto--cel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 0 auto;
+}
+.card__contacto--mediosCel {
+    display: none;
+    background-color: #f9fbfc;
+    max-width: 310px;
+    border-radius: 30px;
+    padding: 15px;
+    box-shadow: 1px 1px 1px #2b2b2b;
+    align-content: center;
+}
+.card__contacto--formulario {
+    display: flex;
+    width: 80%;
+    margin-bottom: 50px;
+}
+.conteinerTestimony {
+    display: grid;
+    grid-template-areas: 
+    "title title title"
+    "tittle--frase tittle--frase tittle--frase"
+    "testiiz testimony testider";
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20%;
+    margin-bottom: 25%;
+}
+.testimony__tittle {
+    text-align: center;
+    align-self: center;
+    font-size: 200%;
+    margin-top: 10px;
+    grid-area: title;
+    margin-top: 20px;
+}
+.testimony__tittle--frase {
+    place-self: center;
+    grid-area: tittle--frase;
+}
+.testiiz {
+    place-self: center;  
+}
+.testider {
+    place-self: center;
+}
+.bordeFrase {
+    width: 320px;
+    text-align: center;
+    padding: 1%;
+    font-weight: bold;
+    border: #ffd700;
+    border-style: ridge;
+    border-width: medium;
+    border-radius: 30px;
+}
+.testimony {
+    max-width: 800px;
+    height: 60px;
+    text-align: center;
+    margin-left: 5%;
+    overflow: auto;
+    grid-area: testimony;
+    place-self: center;
+}
+.formulario {
+    background-color: #f9fbfc;
+    max-width: 800px;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: grid;
+    box-shadow: 1px 1px 1px #2b2b2b;
+}
+.whatsapp {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+}
+.footer {
+    margin: 0px 10px 0px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: #f8f5d6;
+    height: 100px;
+}
+
+.backgroundFooter {
+    background-color: #0e0e0e;
+    background-size: 100%;
+    width: 100%;
+    height: 100px;
+}
+.contacto {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 50px 0px 50px 0px;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: #050505;
+    transition: all 1s;
+}
+.top:hover {
+    color: blue;
+    font-size: 30px;
+}
+.equipo {
+    margin: 50px auto;
+    padding: 10px;
+    width: 60%;
+    justify-content: center;
+    background-color: #f9fbfc;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px #2b2b2b;
+}
+@media (max-width:768px) {
+    header nav {
+        display: none;
+    }
+    .menu__icono {
+        display: inline-block;
+    }
+    .fondoHome {
+        display: none;
+    }
+    .fondoHome__cel {
+        display: flex;
+    }
+    main section {
+        font-size: 70%;
+    }
+    .testimony__tittle {
+        font-size: 150%;
+    }
+    .cardCreacion {
+        margin: 0% 10% 10% 10%;
+        height: 80%;
+        justify-content: center;
+    }
+    .card__title {
+        font-size: 130%;
+    }
+    .card__contacto--medios {
+        display: none;
+    }
+    .card__contacto--mediosCel {
+        display: inline-block;
+    }
+}

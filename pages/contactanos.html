@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clara!-Soluciones gráficas-Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="menu">
+        <section>
+            <a href="../index.html">
+                <img src="../images/clara.png" height="100" alt="Logo de la empresa de soluciones gráficas Clara!" />
+            </a>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="../pages/nuestras-creaciones.html" class="enlacePaginas">Nuestras creaciones </a></li>
+                <li><a href="../pages/lo-que-hacemos.html" class="enlacePaginas">Lo que hacemos</a></li>
+                <li><a href="../pages/quienes-somos.html" class="enlacePaginas">¿Quiénes somos?</a></li>                 
+                <li><a href="../pages/contactanos.html" class="enlacePaginas enlaceTextShadow">¡Contáctanos!</a></li>          
+            </ul>
+        </nav>
+        <span class="menu__icono">
+            <img src="../images/menu.png" alt="icono del menú">
+        </span>
+
+    </header>
+
+    <main>
+        <!-- título principal de la pag web-->
+        <section class="parallaxContacto titulo">
+            <h2><strong>¡Contáctanos!</strong> </h2>
+        </section>
+    
+<!--cuerpo de la página-->
+        <span class="cards__contactos">
+            <div class="card__contacto--medios">
+                <img src="../images/telefono.png" class="card__contacto" alt="imagen de un teléfono">
+                <p class="card__contacto">(+54) 0351 - 153899966</p>
+            </div>
+            <div class="card__contacto--medios">
+                <img src="../images/google.png" class="card__contacto" alt="imagen de google">
+                <p class="card__contacto">clara.solucionesgraficas@gmail.com</p>
+            </div>
+
+            <div class="card__contacto--mediosCel">
+                <img src="../images/telefono.png" width="35%" class="card__contacto--cel" alt="imagen de un teléfono">
+                <p class="card__contacto--cel">(+54) 0351 - 153899966</p>
+                <img src="../images/google.png" width="35%" class="card__contacto--cel" alt="imagen de google">
+                <p class="card__contacto--cel">clara.solucionesgraficas@gmail.com</p>
+            </div>
+        </span>
+    
+        <!--formulario de contacto-->
+        <span class="formulario card__contacto card__contacto--formulario">
+            <form action="enviar.js" method="post">
+                <div>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="Nombre" placeholder="Name">
+                </div>
+
+                <div>
+                    <label for="email">Dirección de correo electrónico:</label>
+                    <input type="text" name="E-mail" id="email" placeholder="example@example.com">
+                </div>
+
+                <div>
+                    <label for="whatsapp">Número de whatsApp:</label>
+                    <input type="text" name="whatsApp" id="whatsapp" placeholder="whatsApp">
+                </div>
+
+                <div>
+                    <label for="texto">¿Cómo te ayudamos?:</label>
+                    <input type="text" name="¿Cómo te ayudamos?" id="texto" placeholder="How can we help you?">
+                </div>
+
+                <div>
+                    <input type="checkbox" name="aceptar" id="aceptar" class="checkBox" />
+                    <label for="aceptar">Deseo recibir novedades</label>
+                </div>
+
+                <button type="submit" class="button">
+                    ENVIAR
+                </button>
+            </form>
+        </span>
+
+        <!--ícono de whatsapp flotante para acceso directo al chat-->
+        <span class="whatsapp">
+            <a href="https://wa.me/5493513899966" target="_blank">
+                <img src="../images/whatsapp-icono.png" width="120" alt="icono del acceso directo de whatsApp" />
+            </a>
+        </span>
+    </main>
+
+    <footer class="backgroundFooter">
+        <nav class="footer">
+            <!--el "¡contáctanos!" llevaría directamente a la página de igual nombre-->
+            <a href="./contactanos.html">
+                <p class="contacto">¡Contáctanos!</p>
+            </a>
+            <span>
+                <img src="../images/ig-icono.png" width="60" alt="icono de acceso directo a Instagram" />
+                <img src="../images/fb-icono.png" width="60" alt="icono de acceso directo a Facebook" />
+            </span>
+        </nav>
+    </footer> 
+</body>
+</html>
