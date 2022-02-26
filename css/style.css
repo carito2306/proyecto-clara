@@ -43,7 +43,7 @@ main {
     min-height: 100vh;
 }
 .menu {
-    background-image: url(../images/Header-fondo.png);
+    background-image: url("../images/header-fondo.png");
     background-size: 100%;
     height: 100%;
     width: 100%;
