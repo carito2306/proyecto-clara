@@ -145,10 +145,10 @@ body {
     padding-top: 150px;
     padding-bottom: 150px
 }
-input {
+/* input {
     width: 50%;
     margin: 20px;
-}
+} */
 .checkBox {
     width: 5%;
     margin: 5px;
@@ -173,9 +173,7 @@ input {
 .card:hover {
     background-color: #fcfae3;
 }
-.cardLoqhacemos {
-    width: 310px;
-}
+
 .cardCreaciones {
     display: flex;
     flex-flow: row wrap;
@@ -202,6 +200,7 @@ input {
 .cards {
     display: flex;
     flex-direction: column;
+    padding: 1rem;
     flex-flow: row wrap;
     justify-content: center;
 }
@@ -324,6 +323,12 @@ input {
     display: grid;
     box-shadow: 1px 1px 1px #2b2b2b;
 }
+
+.f-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
 .whatsapp {
     position: fixed;
     bottom: 70px;
@@ -408,5 +413,13 @@ input {
     }
     .card__contacto--mediosCel {
         display: inline-block;
+    }
+    .equipo {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    .cardLoqhacemos {
+        /* width: 310px; */
+        margin-left: 0;
     }
 }
