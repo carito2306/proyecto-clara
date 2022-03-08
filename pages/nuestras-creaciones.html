@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(19, 19, 19);">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">
                     <img src="../images/clara.png" alt="logo de la empresa" width="100">
@@ -51,28 +51,52 @@
     
 <!--portfolio-->
         <span class="cardCreaciones">
-            <div class="card cardCreacion">
-                <img src="../images/tarjetas-ludmi.jpg" class="cardCreacion__img" alt="imagen del proyecto de tarjetas personales">
-                <h3 class="card__title card__contacto--cel">Tarjetas personales</h3>
-                <p class="cardDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="card cardCreacion accordion accordion-flush">
+                <img src="../images/tarjetas-ludmi.jpg" class="cardCreacion__img accordion-item" alt="imagen del proyecto de tarjetas personales">
+                <h3 class="card__title accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Tarjetas personales
+                    </button>
+                </h3>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">El objetivo de una tarjeta personal es que la gente te recuerde. Con tu tarjeta personal diseñada en Clara-SG, mostrarás a las personas la verdadera esencia de tu emprendimiento o profesión.</div>
+                </div>            
             </div>
 
-            <div class="card cardCreacion">
-                <img src="../images/sorteo.png" class="cardCreacion__img" alt="imagen del proyecto de tarjetas personales">
-                <h3 class="card__title">Placas para redes sociales</h3>
-                <p class="cardDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="card cardCreacion accordion accordion-flush">
+                <img src="../images/sorteo.png" class="cardCreacion__img accordion-item" alt="imagen del proyecto de una placa para redes sociales">
+                <h3 class="card__title accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Redes sociales
+                    </button>
+                </h3>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">El propósito del marketing en redes sociales es construir una marca y aumentar la visibilidad, a través de piezas de contenido y promociones que generen una comunicación con potenciales clientes y con los que ya eligen tu marca, y a la vez que se crea toda una comunidad interactiva.</div>
+                </div>            
             </div>
 
-            <div class="card cardCreacion">
-                <img src="../images/logo-horizontal-chico.jpg" class="cardCreacion__img" alt="imagen del proyecto de tarjetas personales">
-                <h3 class="card__title">Imagen de marca</h3>
-                <p class="cardDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="card cardCreacion accordion accordion-flush">
+                <img src="../images/logo-horizontal-chico.jpg" class="cardCreacion__img accordion-item" alt="imagen del proyecto de cracion de marca">
+                <h3 class="card__title accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Imagen de marca
+                    </button>
+                </h3>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Con la imagen de marca transmitimos los valores de la misma al mercado y a los clientes, expresando sus valores y objetivos.</div>
+                </div>            
             </div>
             
-            <div class="card cardCreacion">
-                <img src="../images/fotomontaje.jpeg" class="cardCreacion__img" alt="imagen de fotomontaje">
-                <h3 class="card__title">Fotomontaje</h3>
-                <p class="cardDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="card cardCreacion accordion accordion-flush">
+                <img src="../images/fotomontaje.jpeg" class="cardCreacion__img accordion-item" alt="imagen de fotomontaje">
+                <h3 class="card__title accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        Fotomontaje
+                    </button>
+                </h3>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Composición fotográfica que resulta de la combinación de fragmentos de diversas fotografías, a veces acompañadas de dibujos, y que se hace generalmente con intención artística o publicitaria.</div>
+                </div>            
             </div>
 
         </span>
