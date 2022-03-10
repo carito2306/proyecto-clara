@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(../fonts/opensans/opensans/OpenSans-Regular.ttf);
+}
+
+nav {
+    background-color: #191919;
+}
+
+p {
+    margin: 0 auto;
+    color: #000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+header {
+    position: sticky;
+    bottom: 0px;
+}
+main {
+    min-height: 100vh;
+}
+.sgNavbar {
+    margin-bottom: 0;
+}
+.menu {
+    background-image: url("../images/header-fondo.png");
+    background-size: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+    position: sticky;
+    top: 0px;
+}
+.menu__icono {
+    display: none;
+    padding: 5%;
+}
+li {
+    display: inline-block
+}
+.enlacePaginas{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+.enlaceTextShadow {
+    text-shadow: 0px 0px 15px #fff;
+}
+ul li:hover {
+    text-shadow: 0px 0px 15px #fff;
+}
+.parallaxLoquehacemos {
+    background-image: url('https://image.freepik.com/foto-gratis/ideas-vision-mision-creativa-solucion-cocnept_53876-123786.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxNuestras {
+    background-image: url('https://images.pexels.com/photos/2857477/pexels-photo-2857477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxEquipo {
+    background-image: url('https://image.freepik.com/foto-gratis/colegas-dando-golpe-puno_53876-64857.jpg');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+.parallaxContacto {
+    background-image: url('https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+    margin-bottom: 40px;
+}
+
+h2 {
+    text-align: center;
+    color: #050505;
+    font-size: 300%;
+    background-color: rgba(240, 248, 255, 0.7);
+}
+
+.card {
+    background-color: #f9fbfc;
+    max-width: 410px;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 15px 0 15px 25px;
+    display: grid;
+    box-shadow: 1px 1px 1px #2b2b2b;
+    transition: width 2s;
+}
+.card:hover {
+    background-color: #fcfbf5;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+}
+.footer {
+    margin: 0px 10px 0px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    color: #f8f5d6;
+    height: 100px;
+}
+
+.backgroundFooter {
+    background-color: #0e0e0e;
+    background-size: 100%;
+    width: 100%;
+    height: 100px;
+}
+.contacto {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 50px 0px 50px 0px;
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    color: #050505;
+    transition: all 1s;
+}
+.top:hover {
+    color: blue;
+    font-size: 30px;
+}

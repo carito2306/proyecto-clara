@@ -1,0 +1,50 @@
+.cardCreaciones {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-items: center;
+    grid-auto-rows: 500px;
+}
+.cardCreacion {
+    display: grid;
+    place-self: center;
+    width: 310px;
+    min-height: 380px;
+}
+.cardCreacion__img {
+    width: 250px;
+    place-self: center;
+    transition: all 1s;
+}
+.cardCreacion__img:hover {
+    width: 270px;
+}
+.cardDescription {
+    place-self: center;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.card__title {
+    font-size: 25px;
+    text-align: center;
+}
+.card__img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.card__img:hover {
+    width: 280px;
+}
+.card__text {
+    width: 90%;
+    padding: 10px;
+}

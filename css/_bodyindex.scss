@@ -1,0 +1,101 @@
+.solucionesG__titulo {
+    text-decoration: none;
+    color: #f8f5d6;
+}
+
+.fondoHome {
+    display: flex;
+    background-color: #050505;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.animation {
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        width: 1000px;
+    }
+    100% {
+        width: 800px;
+    }
+}
+.fondoHome__cel {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #050505;
+    height: 100vh;
+}
+
+@media (max-width:768px) {
+    .fondoHome {
+        display: none;
+    }
+    .fondoHome__cel {
+        display: flex;
+    }
+
+    .animationCel {
+        animation-name: aparecerCel;
+        animation-duration: 3s;
+        animation-delay: 1s;    
+    }
+    @keyframes aparecerCel {
+        0% {
+            opacity: 0;
+        }
+        45% {
+            opacity: 1;
+        }
+        55% {
+            width: 200px;
+        }
+    }main section {
+        font-size: 70%;
+    }
+    .testimony__tittle {
+        font-size: 200%;
+    }
+    .cardCreacion {
+        margin: 0% 10% 10% 10%;
+        height: 80%;
+        justify-content: center;
+    }
+    .card__title {
+        font-size: 130%;
+    }
+    .card__contacto--medios {
+        display: none;
+    }
+    .card__contacto--mediosCel {
+        display: inline-block;
+    }
+    .equipo {
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    .cardLoqhacemos {
+        /* width: 310px; */
+        margin-left: 0;
+    }
+    .proceso {
+        display: none;
+    }
+
+    .procesoCel {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.3rem;
+    }
+}
