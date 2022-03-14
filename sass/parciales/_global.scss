@@ -69,6 +69,14 @@ li {
 ul li:hover {
     text-shadow: 0px 0px 15px #fff;
 }
+
+.titulo {
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .parallaxLoquehacemos {
     background-image: url('https://image.freepik.com/foto-gratis/ideas-vision-mision-creativa-solucion-cocnept_53876-123786.jpg');
     background-size: cover;
@@ -103,6 +111,7 @@ h2 {
     color: #050505;
     font-size: 300%;
     background-color: rgba(240, 248, 255, 0.7);
+    width: 100%;
 }
 
 .card {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass style.scss css/style.min.css -w --no-source-map -s compressed"
+    "dev": "sass sass/style.scss css/style.min.css -w --no-source-map -s compressed"
   },
   "author": "",
   "license": "ISC"
