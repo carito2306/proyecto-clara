@@ -20,12 +20,7 @@
     box-shadow: 1px 1px 1px #2b2b2b;
 }
 .card__contacto--cel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5%;
-    margin: 0 auto;
+    display: none;
 }
 .card__contacto--mediosCel {
     display: none;
@@ -55,4 +50,21 @@
 .f-label {
     font-size: 1rem;
     margin-bottom: 0.5rem;
+}
+
+@media (max-width:$md) {
+    .card__contacto--medios {
+        display: none;
+    }
+    .card__contacto--mediosCel {
+        display: inline-block;
+    }
+    .card__contacto--cel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        margin: 0 auto;
+    }
 }
