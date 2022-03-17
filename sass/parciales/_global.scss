@@ -153,11 +153,15 @@ h2 {
     }
 }
 
+.footerCel {
+    display: none;
+}
+
 .backgroundFooter {
     background-color: #0e0e0e;
     background-size: 100%;
     width: 100%;
-    height: 100px;
+    height: auto;
 }
 .contacto {
     display: inline-block;
@@ -198,5 +202,17 @@ $paginas: (
 @each $pg, $color in $paginas {
     .pg-#{$pg} {
         color: $color;
+    }
+}
+
+@media (max-width:$md) {
+    .footer {
+        display: none;
+    }
+    .footerCel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
