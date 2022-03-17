@@ -46,5 +46,10 @@
 }
 
 .cardLoqhacemos {
+    @extend .card;
     width: 310px;
+}
+
+.card__title {
+    @include card__title(25px)
 }
