@@ -1,0 +1,74 @@
+.footer {
+    margin: 0px 10px 0px 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #f8f5d6;
+    height: 130px;
+    &__paginas {
+        font-size: $fontLitle;
+        display: grid;
+        justify-items: center;
+        margin: 1rem;
+    }
+    &__redes {
+        margin-bottom: 1rem;
+    }
+}
+
+.footerCel {
+    display: none;
+}
+
+.backgroundFooter {
+    background-color: #0e0e0e;
+    background-size: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.contacto {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.pagina {
+    margin: 0.2rem;
+}
+
+.pagina:hover {
+    text-align: center;
+    text-shadow: 0px 0px 17px #fff;
+    width: 10rem;
+    border-radius: $borderRadius;
+}
+
+$paginas: (
+    home: rgb(142, 234, 247),
+    loQhacemos: rgb(253, 183, 183),
+    nCreaciones: rgb(252, 245, 183),
+    qSomos: rgb(189, 215, 255),
+    contacto: rgb(217, 250, 178) ,
+);
+
+@each $pg, $color in $paginas {
+    .pg-#{$pg} {
+        color: $color;
+    }
+}
+
+@media (max-width:$md) {
+    .footer {
+        display: none;
+    }
+    .footerCel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
