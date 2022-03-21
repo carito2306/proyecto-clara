@@ -4,11 +4,13 @@
     justify-content: space-evenly;
     margin: 5%;
 }
+
 .card__contacto {
     display: flex;
     margin: 0 auto;
     padding: 5% 0 5% 0;
 }
+
 .card__contacto--medios {
     background-color: #f9fbfc;
     width: 50%;
@@ -19,9 +21,11 @@
     display: grid;
     box-shadow: 1px 1px 1px #2b2b2b;
 }
+
 .card__contacto--cel {
     display: none;
 }
+
 .card__contacto--mediosCel {
     display: none;
     background-color: #f9fbfc;
@@ -31,11 +35,13 @@
     box-shadow: 1px 1px 1px #2b2b2b;
     align-content: center;
 }
+
 .card__contacto--formulario {
     display: flex;
     width: 80%;
     margin-bottom: 50px;
 }
+
 .formulario {
     background-color: #f9fbfc;
     max-width: 800px;
@@ -56,9 +62,11 @@
     .card__contacto--medios {
         display: none;
     }
+
     .card__contacto--mediosCel {
         display: inline-block;
     }
+    
     .card__contacto--cel {
         display: flex;
         flex-direction: column;

@@ -8,6 +8,7 @@
     row-gap: 20%;
     margin-bottom: 10rem;
 }
+
 .testimony__tittle {
     text-align: center;
     align-self: center;
@@ -16,16 +17,20 @@
     grid-area: title;
     margin-top: 20px;
 }
+
 .testimony__tittle--frase {
     place-self: center;
     grid-area: tittle--frase;
 }
+
 .testiiz {
     place-self: center;  
 }
+
 .testider {
     place-self: center;
 }
+
 .bordeFrase {
     width: 320px;
     text-align: center;
@@ -36,6 +41,7 @@
     border-width: medium;
     border-radius: 30px;
 }
+
 .testimony {
     max-width: 800px;
     height: 60px;

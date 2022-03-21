@@ -5,6 +5,7 @@
     justify-items: center;
     grid-auto-rows: 500px;
 }
+
 .cardCreacion {
     @extend .card;
     display: grid;
@@ -12,17 +13,21 @@
     width: 310px;
     min-height: 380px;
 }
+
 .cardCreacion__img {
     width: 250px;
     place-self: center;
     transition: all 1s;
 }
+
 .cardCreacion__img:hover {
     width: 270px;
 }
+
 .cardDescription {
     place-self: center;
 }
+
 .cards {
     display: flex;
     flex-direction: column;

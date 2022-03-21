@@ -35,12 +35,15 @@ header {
     position: sticky;
     bottom: 0px;
 }
+
 main {
     min-height: 100vh;
 }
+
 .sgNavbar {
     margin-bottom: 0;
 }
+
 .menu {
     background-image: url("../images/header-fondo.png");
     background-size: 100%;
@@ -54,21 +57,26 @@ main {
     position: sticky;
     top: 0px;
 }
+
 .menu__icono {
     display: none;
     padding: 5%;
 }
+
 li {
     display: inline-block
 }
+
 .enlacePaginas{
     text-decoration: none;
     color: #fff;
     margin: 0 15px;
 }
+
 .enlaceTextShadow {
     text-shadow: 0px 0px 15px #fff;
 }
+
 ul li:hover {
     text-shadow: 0px 0px 15px #fff;
 }
@@ -87,6 +95,7 @@ ul li:hover {
     background-attachment: fixed;
     margin-bottom: 40px;
 }
+
 .parallaxNuestras {
     background-image: url('https://images.pexels.com/photos/2857477/pexels-photo-2857477.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
@@ -94,6 +103,7 @@ ul li:hover {
     background-attachment: fixed;
     margin-bottom: 40px;
 }
+
 .parallaxEquipo {
     background-image: url('https://image.freepik.com/foto-gratis/colegas-dando-golpe-puno_53876-64857.jpg');
     background-size: cover;
@@ -101,6 +111,7 @@ ul li:hover {
     background-attachment: fixed;
     margin-bottom: 40px;
 }
+
 .parallaxContacto {
     background-image: url('https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-size: cover;
@@ -149,6 +160,7 @@ h2 {
     color: #050505;
     transition: all 1s;
 }
+
 .top:hover {
     color: blue;
     font-size: 30px;
