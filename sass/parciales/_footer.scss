@@ -45,11 +45,11 @@
 }
 
 $paginas: (
-    home: rgb(142, 234, 247),
-    loQhacemos: rgb(253, 183, 183),
-    nCreaciones: rgb(252, 245, 183),
-    qSomos: rgb(189, 215, 255),
-    contacto: rgb(217, 250, 178) ,
+    home: #8eeaf7,
+    loQhacemos: #fdb7b7,
+    nCreaciones: #fcf5b7,
+    qSomos: #bdd7ff,
+    contacto: #d9fab2 ,
 );
 
 @each $pg, $color in $paginas {
