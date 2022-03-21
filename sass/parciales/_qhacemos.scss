@@ -53,3 +53,10 @@
 .card__title {
     @include card__title(25px)
 }
+
+.card__text--scroll {
+    @extend .card__text;
+    max-height: 190px;
+    overflow: auto;
+    margin-top: 0.5%;
+}

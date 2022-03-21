@@ -1,11 +1,9 @@
 .footer {
-    margin: 0px 10px 0px 20px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     color: #f8f5d6;
-    height: 130px;
     &__paginas {
         font-size: $fontLitle;
         display: grid;
@@ -25,15 +23,14 @@
     background-color: #0e0e0e;
     background-size: 100%;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .contacto {
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin-left: 2rem;
 }
 
 .pagina {
